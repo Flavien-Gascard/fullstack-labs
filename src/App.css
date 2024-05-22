@@ -15,7 +15,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +33,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  flex-direction: initial;
 }
